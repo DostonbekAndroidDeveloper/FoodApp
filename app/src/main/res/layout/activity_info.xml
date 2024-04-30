@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:textAllCaps="false"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+          android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:text="Necessary product"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/kerakli"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:text="Title"
+            android:textStyle="italic|normal"
+
+            android:padding="10dp"
+
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:text="Daily of making meal"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:textAllCaps="false"
+            android:id="@+id/tartib"
+
+            android:layout_weight="5"
+            android:padding="10dp"
+
+            android:textStyle="italic|normal"
+            android:layout_width="match_parent"
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

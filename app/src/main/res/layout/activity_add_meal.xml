@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMeal"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="30dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#DCCBCB"
+        android:gravity="center|start"
+        android:hint="@string/name_of_meal"
+        android:paddingStart="15dp"
+        android:textSize="20sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,RtlSymmetry"
+        android:autofillHints="" />
+    <EditText
+        android:hint="Necessary Products"
+        android:textSize="20sp"
+        android:gravity="top"
+     android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_margin="30dp"
+        android:backgroundTint="#DCCBCB"
+        android:id="@+id/productOfMeal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"/>
+    <EditText
+        android:hint=" Recipe of Meal"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:gravity="top"
+        android:id="@+id/dailyOfMakingMeal"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/productOfMeal"
+        android:layout_margin="30dp"
+        android:backgroundTint="#DCCBCB"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/save"
+        android:id="@+id/save"
+        android:textSize="20sp"
+        android:backgroundTint="#00C853"
+        app:layout_constraintTop_toBottomOf="@id/dailyOfMakingMeal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@id/dailyOfMakingMeal"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="add_meal">Add Meal</string>
+    <string name="menu">Menu</string>
+    <string name="name_of_meal">Name of meal</string>
+    <string name="appname">appName</string>
+    <string name="appName" />
+    <string name="NAME">appName</string>
+    <string name="save">Save</string>
+    <string name="daily_of_makeing_meal">Daily of makeing meal</string>
+    <string name="daily_of_making_meal">Daily of making meal</string>
+    <string name="necessary_ptoducts">Necessary ptoducts</string>
+</resources>
